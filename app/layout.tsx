@@ -1,16 +1,7 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import SideNav from "./components/SideNav";
+import { roboto, luckiest_Guy } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,9 +16,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${roboto.variable} ${luckiest_Guy.variable} antialiased flex flex-row`}
       >
-        {children}
+        <div className="hidden w-[300px] lg:flex">
+          <SideNav/>
+        </div>
+        <div className="w-full">
+          {children}
+        </div>
       </body>
     </html>
   );

@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/*@layer utilities { estilos personalizados desde el global config
+  .heading-primary {
+    @apply text-4xl font-bold text-blue-500 tracking-wide leading-relaxed;
+  }
+
+  .heading-secondary {
+    @apply text-2xl font-medium text-gray-700 tracking-normal leading-normal;
+  }
+}*/
+
 :root {
   --background: #ffffff;
   --foreground: #171717;

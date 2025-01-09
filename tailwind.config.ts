@@ -9,6 +9,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        "gray-nav": "#393D41",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
