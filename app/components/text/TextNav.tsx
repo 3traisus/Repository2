@@ -9,7 +9,7 @@ export function TextNav({
 }) {
   return (
     <a
-      className={`flex items-center font-semibold text-[32px]  ${selected ? "text-nav-color-select" : "text-gray-nav"}`} //"flex items-center heading-primary" +
+      className={`flex items-center font-semibold text-[32px] w-fit ${selected ? "text-nav-color-select" : "text-gray-nav"}`} //"flex items-center heading-primary" +
       href={href}
     >
       <div

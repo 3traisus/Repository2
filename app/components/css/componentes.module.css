@@ -1,0 +1,3 @@
+.text-title {
+  @apply text-nav-color-select text-[64px] ml-8 mt-8 w-fit;
+}

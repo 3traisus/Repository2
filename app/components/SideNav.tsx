@@ -94,6 +94,7 @@ export default function SideNav() {
         width={175}
         height={175}
         alt="Picture of the author"
+        className="opacity-75"
       />
       <nav className="flex flex-col flex-wrap w-full pt-16">
         {SECTIONS.map(({ id, text }) => (

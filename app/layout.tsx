@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import SideNav from "./components/SideNav";
 import { roboto, luckiest_Guy } from "./fonts";
+import { Provider } from "@/components/ui/provider";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${roboto.variable} ${luckiest_Guy.variable} antialiased flex flex-row`}
       >
@@ -25,7 +26,9 @@ export default function RootLayout({
           </aside>
 
           {/* Contenido principal */}
-          <main className="flex-1 lg:ml-[300px]">{children}</main>
+          <main className="flex lg:ml-[300px] justify-center w-full">
+            <Provider>{children}</Provider>
+          </main>
         </div>
       </body>
     </html>
