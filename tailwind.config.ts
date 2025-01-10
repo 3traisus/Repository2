@@ -10,6 +10,7 @@ export default {
     extend: {
       colors: {
         "gray-nav": "#393D41",
+        "nav-color-select": "#3EC8B1",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },

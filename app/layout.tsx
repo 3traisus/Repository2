@@ -18,11 +18,14 @@ export default function RootLayout({
       <body
         className={`${roboto.variable} ${luckiest_Guy.variable} antialiased flex flex-row`}
       >
-        <div className="hidden w-[300px] lg:flex">
-          <SideNav/>
-        </div>
-        <div className="w-full">
-          {children}
+        <div className="flex h-screen w-full">
+          {/* Barra lateral fija */}
+          <aside className="fixed hidden h-full w-[300px] lg:flex">
+            <SideNav />
+          </aside>
+
+          {/* Contenido principal */}
+          <main className="flex-1 lg:ml-[300px]">{children}</main>
         </div>
       </body>
     </html>
