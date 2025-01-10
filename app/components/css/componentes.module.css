@@ -1,3 +1,7 @@
 .text-title {
   @apply text-nav-color-select text-bigger-title opacity-85 w-fit;
 }
+
+.container {
+  @apply w-full pt-8 px-8 lg:max-w-[1024px];
+}
