@@ -9,11 +9,17 @@ export function TextNav({
 }) {
   return (
     <a
-      className={`flex items-center font-semibold text-[32px] w-fit ${selected ? "text-nav-color-select" : "text-gray-nav"}`} //"flex items-center heading-primary" +
+      className={`group flex items-center font-semibold text-[24px] w-fit opacity-85 ${
+        selected ? "text-nav-color-select" : "text-gray-nav hover:text-gray-600"
+      }`}
       href={href}
     >
       <div
-        className={`w-14 h-[3px] mr-4 ${selected ? "bg-nav-color-select" : "bg-gray-nav"}`}
+        className={`w-12 h-[2px] mr-4 opacity-85 ${
+          selected
+            ? "bg-nav-color-select"
+            : "bg-gray-nav group-hover:bg-gray-600"
+        }`}
       />
       {text}
     </a>
