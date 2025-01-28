@@ -2,7 +2,6 @@ import {
   Aboutme,
   BannerStart,
   Certifacte,
-  HeaderSocial,
   History,
   Project,
   Skills,

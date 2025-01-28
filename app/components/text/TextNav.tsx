@@ -2,10 +2,12 @@ export function TextNav({
   text,
   href,
   selected,
+  setter,
 }: {
   text: string;
   href: string;
   selected: boolean;
+  setter: (id: string) => void;
 }) {
   return (
     <a
@@ -13,6 +15,7 @@ export function TextNav({
         selected ? "text-nav-color-select" : "text-gray-nav hover:text-gray-600"
       }`}
       href={href}
+      onClick={() => setter}
     >
       <div
         className={`w-12 h-[2px] mr-4 opacity-85 ${

@@ -1,6 +1,11 @@
-import { Button, Flex, HStack, Text } from "@chakra-ui/react";
-import styles from "./css/componentes.module.css";
+import { Text } from "@chakra-ui/react";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Banner",
+  description: "Fondo creativo",
+};
 
 export function BannerStart() {
   return (

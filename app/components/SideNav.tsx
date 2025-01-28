@@ -103,7 +103,7 @@ export default function SideNav() {
             selected={activeSection === id}
             href={`#${id}`}
             text={text}
-            onClick={() => handleMenuClick(id)} // Maneja el clic manual
+            setter={() => handleMenuClick(id)} // Maneja el clic manual
           />
         ))}
       </nav>

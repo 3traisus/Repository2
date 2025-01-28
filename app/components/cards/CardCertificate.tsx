@@ -1,4 +1,4 @@
-import { Button, Card, Heading, HStack } from "@chakra-ui/react";
+import { Card, Heading, HStack } from "@chakra-ui/react";
 import Image from "next/image";
 import { ReactElement } from "react";
 export function CardCertificate({

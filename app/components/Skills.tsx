@@ -1,5 +1,5 @@
-import { Box, Heading, HStack, VStack } from "@chakra-ui/react";
-import { CardFull, CardSkills, CardThin } from "./cards";
+import { Heading, HStack } from "@chakra-ui/react";
+import { CardSkills } from "./cards";
 import { FaReact } from "react-icons/fa"; //import Image from "next/image";
 import {
   TbPointFilled,
@@ -18,6 +18,12 @@ import {
 import { FaPython } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import styles from "./css/componentes.module.css";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Habilidades",
+  description: "Mis tegnologias y Aptitudes",
+};
 
 const cards = {
   1: {

@@ -1,10 +1,16 @@
 "use client";
-import { Button, HStack, Text } from "@chakra-ui/react";
+import { Button, HStack } from "@chakra-ui/react";
 import { CardCertificate } from "./cards";
 import styles from "./css/componentes.module.css";
 import { useEffect, useState } from "react";
 import { GrOracle } from "react-icons/gr";
 import { SiPlatzi, SiUdemy } from "react-icons/si";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Certificados",
+  description: "Certificados obtenidos con el paso del tiempo",
+};
 
 const cards = [
   {
