@@ -18,12 +18,6 @@ import {
 import { FaPython } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import styles from "./css/componentes.module.css";
-/*import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Habilidades",
-  description: "Mis tegnologias y Aptitudes",
-};*/
 
 const cards = {
   1: {
@@ -155,27 +149,3 @@ export function Skills() {
     </div>
   );
 }
-
-/*
-<div className="hidden min-[530px]:block">
-        <CardThin
-          image={cards[1].image}
-          title=""
-          description={cards[1].description}
-          tags={[]}
-        />
-      </div>
-      <div className="block min-[530px]:hidden">
-        <CardFull
-          image={cards[1].image}
-          title=""
-          description={cards[1].description}
-          tags={[]}
-        />
-      </div>
-<HStack className="justify-between flex-wrap">
-        {cards[2].map((item, index) => (
-          <CardSkills key={index} image={item.image} title={item.title} />
-        ))}
-      </HStack>
-*/

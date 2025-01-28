@@ -1,13 +1,6 @@
 import { HStack } from "@chakra-ui/react";
 import { CardText } from "./cards";
 import styles from "./css/componentes.module.css";
-/*import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Proyectos",
-  description:
-    "Trabajo educativos y profesionales en los cuales he participado",
-};*/
 
 const cards = {
   1: {
@@ -126,7 +119,3 @@ export function Project() {
     </div>
   );
 }
-
-/*
-flex items-stretch flex-wrap justify-between bg-slate-500
-*/

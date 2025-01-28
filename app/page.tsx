@@ -1,4 +1,3 @@
-import { Metadata } from "next";
 import {
   Aboutme,
   BannerStart,
@@ -7,11 +6,6 @@ import {
   Project,
   Skills,
 } from "./components";
-
-export const metadata: Metadata = {
-  title: "Portafolio",
-  description: "Inicio portafolio",
-};
 
 export default function Home() {
   return (

@@ -1,11 +1,5 @@
 import { Text } from "@chakra-ui/react";
 import Image from "next/image";
-/*import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Banner",
-  description: "Fondo creativo",
-};*/
 
 export function BannerStart() {
   return (
@@ -31,18 +25,3 @@ export function BannerStart() {
     </div>
   );
 }
-
-/*<div className="relative">
-      <Image
-        height={514}
-        width={1024}
-        src={"/background.png"}
-        alt="imagen de fondo"
-      />
-      <Text className="text-[48px] w-full text-center absolute top-[220px]">
-        Frontend and Backend developer
-      </Text>
-      <Text className="text-[48px] font-luckiestGuy text-color-mostaza w-full text-center absolute top-[290px]">
-        Jesus Eduardo Nuñez Ramirez
-      </Text>
-    </div>*/

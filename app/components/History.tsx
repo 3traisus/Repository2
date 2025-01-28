@@ -10,12 +10,6 @@ import {
 } from "@chakra-ui/react";
 import { MdSchool } from "react-icons/md";
 import { HiBuildingOffice2 } from "react-icons/hi2";
-/*import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Historial",
-  description: "Mis pasos como profesionista",
-};*/
 
 export function History() {
   return (

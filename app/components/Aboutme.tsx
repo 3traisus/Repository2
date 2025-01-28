@@ -1,10 +1,4 @@
 import styles from "./css/componentes.module.css";
-/*import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Aboutme",
-  description: "Quien soy y que me apasiona",
-};*/
 
 export function Aboutme() {
   return (
