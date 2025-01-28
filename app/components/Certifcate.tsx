@@ -5,12 +5,12 @@ import styles from "./css/componentes.module.css";
 import { useEffect, useState } from "react";
 import { GrOracle } from "react-icons/gr";
 import { SiPlatzi, SiUdemy } from "react-icons/si";
-import { Metadata } from "next";
+/*import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Certificados",
   description: "Certificados obtenidos con el paso del tiempo",
-};
+};*/
 
 const cards = [
   {
