@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="flex-1 flex flex-col gap-8  pb-8 ">
       {/*font-[family-name:var(--font-geist-sans)]*/}
-      <section id="inicio" className="flex w-full justify-center">
+      <section id="begin" className="flex w-full justify-center">
         <BannerStart />
       </section>
       <section id="about" className="flex w-full justify-center">

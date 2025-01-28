@@ -6,7 +6,7 @@ import { useState, useEffect, useRef } from "react";
 
 // Define las secciones de manera centralizada
 const SECTIONS = [
-  { id: "inicio", text: "Inicio" },
+  { id: "begin", text: "Inicio" },
   { id: "about", text: "Sobre mi" },
   { id: "history", text: "Historial" },
   { id: "skills", text: "Habilidades" },

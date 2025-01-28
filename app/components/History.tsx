@@ -32,13 +32,13 @@ export function History() {
               profesionales del area, los cuales con el cumplimiento de las
               competencias necesarias me aportaran varias habilidades que van
               mas alla de solo saber programar algunas de estas las veras en mis{" "}
-              <a className="text-nav-color-select" href={"#project"}>
+              <a className="text-color-mostaza" href={"#history"}>
                 habilidades blandas
               </a>{" "}
               ademas de realizar varios proyectos con los cuales demostra
               capacidad para trabajar en equipo y resolver problemas con los
               cuales nos enfrentamos algunos de estos estaran mis{" "}
-              <a className="text-nav-color-select" href={"#project"}>
+              <a className="text-color-mostaza" href={"#project"}>
                 proyectos
               </a>
               .
