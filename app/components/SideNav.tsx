@@ -9,9 +9,9 @@ const SECTIONS = [
   { id: "inicio", text: "Inicio" },
   { id: "about", text: "Sobre mi" },
   { id: "history", text: "Historial" },
+  { id: "skills", text: "Habilidades" },
   { id: "project", text: "Proyectos" },
   { id: "certificate", text: "Certificados" },
-  { id: "skills", text: "Habilidades" },
 ];
 
 export default function SideNav() {

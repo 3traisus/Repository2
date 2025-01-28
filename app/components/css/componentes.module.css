@@ -1,7 +1,11 @@
 .text-title {
-  @apply text-nav-color-select text-bigger-title opacity-85 w-fit;
+  @apply text-nav-color-select text-bigger-title opacity-85 w-fit mb-4;
 }
 
 .container {
-  @apply w-full pt-8 px-8 lg:max-w-[1024px];
+  @apply w-full max-w-[1024px] pt-8 px-8 z-20;
+}
+
+.bg-gradient-radial {
+  background: radial-gradient(circle at center, #000000, #25433e);
 }

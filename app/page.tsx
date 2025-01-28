@@ -10,32 +10,26 @@ import {
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[100px_1fr] font ">
-      {" "}
+    <div className="flex-1 flex flex-col gap-8  pb-8 ">
       {/*font-[family-name:var(--font-geist-sans)]*/}
-      <header className="flex row-start-1">
-        <HeaderSocial />
-      </header>
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <section id="inicio">
-          <BannerStart />
-        </section>
-        <section id="about">
-          <Aboutme />
-        </section>
-        <section id="history">
-          <History />
-        </section>
-        <section id="project">
-          <Project />
-        </section>
-        <section id="certificate">
-          <Certifacte />
-        </section>
-        <section id="skills">
-          <Skills />
-        </section>
-      </main>
+      <section id="inicio" className="flex w-full justify-center">
+        <BannerStart />
+      </section>
+      <section id="about" className="flex w-full justify-center">
+        <Aboutme />
+      </section>
+      <section id="history" className="flex w-full justify-center">
+        <History />
+      </section>
+      <section id="skills" className="flex w-full justify-center">
+        <Skills />
+      </section>
+      <section id="project" className="flex w-full justify-center">
+        <Project />
+      </section>
+      <section id="certificate" className="flex w-full justify-center">
+        <Certifacte />
+      </section>
     </div>
   );
 }
