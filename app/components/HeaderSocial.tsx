@@ -27,7 +27,11 @@ export function HeaderSocial() {
             className="w-[32px] h-[32px] cursor-pointer"
             onClick={() => redirectToSocial("https://github.com/3traisus")}
           />
-          <a className="rounded self-center font text-[12px] bg-gray-nav w-fit p-1 cursor-pointer">
+          <a
+            className="rounded self-center font text-[12px] bg-gray-nav w-fit p-1 cursor-pointer"
+            href="/CV_JesusEduardoNuñezRamirez.pdf"
+            target="_blank"
+          >
             Descargar CV
           </a>
         </HStack>

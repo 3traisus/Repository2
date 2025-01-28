@@ -12,8 +12,8 @@ export function Aboutme() {
         lo que me permitió descubrir mi gusto por codificar y razonar procesos
         lógicos. Ver cómo cada línea de código transformaba una idea en realidad
         era una experiencia increíblemente satisfactoria. Hoy, gracias a ese
-        rumbo que tomé, tengo el orgullo de decir que soy desarrollador Frontend
-        y Backend.
+        rumbo que tomé, tengo el honor de decir que soy desarrollador Frontend y
+        Backend.
         {". "}
         <span className="text-color-mostaza">
           Especializado en aplicaciones moviles y web

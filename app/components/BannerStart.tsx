@@ -18,7 +18,11 @@ export function BannerStart() {
         <Text className="truncate text-[24px] font-luckiestGuy text-color-mostaza text-center md:text-[48px] md:w-full  min-[530px]:text-[36px]">
           Jesus Eduardo Nuñez Ramirez
         </Text>
-        <a className="rounded self-center font text-[24px] bg-gray-nav w-fit p-4 cursor-pointer max-[560px]:hidden">
+        <a
+          className="rounded self-center font text-[24px] bg-gray-nav w-fit p-4 cursor-pointer max-[560px]:hidden"
+          href="/CV_JesusEduardoNuñezRamirez.pdf"
+          target="_blank"
+        >
           Descargar CV
         </a>
       </div>
