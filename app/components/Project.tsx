@@ -9,6 +9,7 @@ const cards = {
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicin elit. Libero quibusdam tempore enim culpa corrupti hic quisquam voluptas aut sit assumenda.",
     tags: ["TS", "JS", "React"],
+    href: "https://github.com/3traisus/Repository2",
   },
   2: {
     image: "/portafolio.png",
@@ -16,6 +17,7 @@ const cards = {
     description:
       "Desarrollo de mi propio portafolio, donde me presento y puedes conocerme, además de mostrar algunos de los proyectos en los que he participado, aplicando diversas habilidades y tecnologías.",
     tags: ["react", "TS", "nextjs"],
+    href: "https://github.com/3traisus/Repository2",
   },
   3: [
     {
@@ -93,6 +95,7 @@ export function Project() {
           title={cards[2].title}
           description={cards[2].description}
           tags={cards[2].tags}
+          href={cards[2].href}
         />
       </div>
       <div className="md:hidden">
@@ -101,6 +104,7 @@ export function Project() {
           title={cards[2].title}
           description={cards[2].description}
           tags={cards[2].tags}
+          href={cards[2].href}
         />
       </div>
       <HStack className="flex flex-wrap ">

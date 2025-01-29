@@ -1,4 +1,5 @@
 import { Box, Card, Image, Tag } from "@chakra-ui/react";
+import { IoLink } from "react-icons/io5";
 //import Image from "next/image";
 
 export function CardThin({
@@ -6,11 +7,13 @@ export function CardThin({
   title,
   description,
   tags,
+  href,
 }: {
   image: string;
   title: string;
   description: string;
   tags: string[];
+  href: string;
 }) {
   return (
     <Card.Root
@@ -30,8 +33,11 @@ export function CardThin({
       />
       <Box>
         <Card.Body>
-          <Card.Title className="text-[18px] min-[463px]:text-normal-title w-fit">
-            {title}
+          <Card.Title className="flex flex-row items-center text-[18px] min-[463px]:text-normal-title w-fit">
+            <a href={href} target={"_blank"} className="cursor-pointer">
+              {title}
+            </a>
+            <IoLink size={16} className="ml-4" />
           </Card.Title>
           <Card.Description
             className="text-[14px] min-[463px]:text-text-card " /*line-clamp-1 hover:line-clamp-none*/
