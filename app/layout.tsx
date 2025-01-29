@@ -59,7 +59,7 @@ export default function RootLayout({
           <div className="absolute left-0 right-0 top-0 m-auto h-[310px] w-[310px] rounded-full bg-[#25433E] opacity-80 blur-[100px]"></div>
         </div>
         <Provider>
-          <div className="flex flex-col h-screen w-screen  relative">
+          <div className="flex flex-col h-screen w-[100%]  relative">
             <header className="fixed flex w-full h-[50px]  justify-center z-50 bg-black">
               <link
                 rel="apple-touch-icon"

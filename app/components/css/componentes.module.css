@@ -3,7 +3,7 @@
 }
 
 .container {
-  @apply w-full max-w-[1024px] pt-8 px-8 z-20;
+  @apply w-full pt-8 px-8;
 }
 
 .bg-gradient-radial {
