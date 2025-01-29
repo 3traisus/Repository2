@@ -17,7 +17,7 @@ export function CardText({
   href: string;
 }) {
   return (
-    <Card.Root className="group flex-1 min-h-[278px] min-w-[250px]  self-start bg-[#0b121c] hover:bg-[linear-gradient(90deg,_rgba(2,0,36,1)_0%,_rgba(37,67,62,1)_35%,_rgba(5,158,189,1)_100%)]">
+    <Card.Root className="group flex-1 min-h-[278px] min-w-[300px]  self-start bg-[#0b121c] hover:bg-[linear-gradient(90deg,_rgba(2,0,36,1)_0%,_rgba(37,67,62,1)_35%,_rgba(5,158,189,1)_100%)]">
       {/*group-hover:max-w-[50%]*/}
       {/*md:flex-1  */}
       <Card.Header>

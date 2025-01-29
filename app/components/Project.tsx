@@ -1,5 +1,5 @@
 import { HStack } from "@chakra-ui/react";
-import { CardText } from "./cards";
+import { CardFull, CardText, CardThin } from "./cards";
 import styles from "./css/componentes.module.css";
 
 const cards = {
@@ -11,11 +11,11 @@ const cards = {
     tags: ["TS", "JS", "React"],
   },
   2: {
-    image: "/code.png",
-    title: "Proyecto 2",
+    image: "/portafolio.png",
+    title: "Portafolio",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicin elit. Libero quibusdam tempore enim culpa corrupti hic quisquam voluptas aut sit assumenda.",
-    tags: ["TS", "JS", "React"],
+      "Desarrollo de mi propio portafolio, donde me presento y puedes conocerme, además de mostrar algunos de los proyectos en los que he participado, aplicando diversas habilidades y tecnologías.",
+    tags: ["react", "TS", "nextjs"],
   },
   3: [
     {
@@ -86,7 +86,7 @@ export function Project() {
         title={cards[1].title}
         description={cards[1].description}
         tags={cards[1].tags}
-      />
+      />*/}
       <div className="hidden md:block">
         <CardThin
           image={cards[2].image}
@@ -103,7 +103,6 @@ export function Project() {
           tags={cards[2].tags}
         />
       </div>
-      */}
       <HStack className="flex flex-wrap ">
         {cards[3].map((item, index) => (
           <CardText

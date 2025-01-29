@@ -9,7 +9,7 @@ export function HeaderSocial() {
 
   return (
     <div className="flex w-full h-[50px] max-w-[1024px] justify-end items-center">
-      <HStack className="flex-1 justify-end space-x-16 h-fit text-[16px] font-bold ">
+      <HStack className="flex-1 justify-end space-x-16 h-fit text-[16px] font-bold max-[420px]:space-x-0 max-[420px]:justify-around">
         <Link className="text-gray-400" href="/">
           portafolio
         </Link>
