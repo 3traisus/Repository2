@@ -55,14 +55,16 @@ export function CardCertificate({
           alt="Iamgen de la plataforma"
           className="mr-4"
         />
-        <Heading
-          className="text-[14px] min-[1210px]:text-[16px] font-bold w-fit cursor-pointer underline underline-offset-1"
-          size="md"
-        >
-          <a href={href} target="_blank">
-            ver certificado
-          </a>
-        </Heading>
+        {href != "" && (
+          <Heading
+            className="text-[14px] min-[1210px]:text-[16px] font-bold w-fit cursor-pointer underline underline-offset-1"
+            size="md"
+          >
+            <a href={href} target="_blank">
+              ver certificado
+            </a>
+          </Heading>
+        )}
       </Card.Footer>
     </Card.Root>
   );
