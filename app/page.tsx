@@ -14,10 +14,10 @@ export default function Home() {
       <section id="begin" className="flex w-full justify-center">
         <BannerStart />
       </section>
-      <section id="skills" className="flex-1 max-w-[1024px] ">
+      <section id="about" className="flex-1 max-w-[1024px] ">
         <Aboutme />
       </section>
-      <section id="project" className="flex-1 max-w-[1024px] ">
+      <section id="history" className="flex-1 max-w-[1024px] ">
         <History />
       </section>
       <section id="skills" className="flex-1 max-w-[1024px] ">
