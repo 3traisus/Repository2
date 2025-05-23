@@ -13,9 +13,9 @@ export function HeaderSocial() {
         <Link className="text-gray-400" href="/">
           portafolio
         </Link>
-        <Link className="text-gray-400" href="/blog">
+        {/*<Link className="text-gray-400" href="/blog">
           blog
-        </Link>
+        </Link>*/}
         <HStack>
           <FaLinkedin
             className="w-[32px] h-[32px] mr-2 cursor-pointer"
